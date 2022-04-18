@@ -23,3 +23,29 @@
     color: #7a7a7a;
 }
 
+#navbar{
+    border-bottom: 1px solid green;
+}
+
+#navbar a:hover{
+    color: #7a7a7a7a;
+}
+
+#navbar a.active{
+    border-bottom: 2px dotted red;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
